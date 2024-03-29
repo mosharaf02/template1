@@ -1,0 +1,154 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  max-width: 1250px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.contact ul {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  background: #93bdf4b0;
+  color: #004274cb;
+  padding: 20px;
+  font-size: 20px;
+}
+.heading {
+  text-align: center;
+}
+.heading h1 {
+  background: #004274cb;
+  color: #fff;
+  font-size: 50px;
+  padding: 20px;
+}
+.dates {
+  display: flex;
+  justify-content: space-between;
+  gap: 65%;
+}
+.dates p {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 400;
+}
+.skillList {
+  display: flex;
+  justify-content: space-between;
+  gap: 70%;
+}
+.summery {
+  margin-top: 2%;
+}
+.summery h1 {
+  text-transform: uppercase;
+  font-size: 28px;
+}
+.summery p {
+  margin-top: 1%;
+  font-size: 20px;
+}
+.history {
+  margin-top: 2%;
+}
+.history h1 {
+  text-transform: uppercase;
+  font-size: 28px;
+}
+.history p {
+  margin-top: 1%;
+  font-size: 20px;
+  margin-top: 2%;
+}
+.allHistory ul li {
+  font-size: 18px;
+  margin-left: 5%;
+  line-height: 1.5;
+}
+.skill h1 {
+  font-size: 28px;
+  text-transform: uppercase;
+  margin-top: 2%;
+}
+.firstSkill ul li {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.6;
+}
+.education h1 {
+  font-size: 28px;
+  text-transform: uppercase;
+  margin-top: 2%;
+}
+.education p {
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-top: 1%;
+  font-weight: 400;
+  margin-bottom: 2%;
+}
+@media (max-width: 425px) {
+  * {
+    max-width: 380px;
+  }
+  .heading h1 {
+    font-size: 20px;
+  }
+  .contact ul {
+    font-size: 10px;
+    padding: 5px 8px;
+  }
+  .summery h1 {
+    text-transform: uppercase;
+    font-size: 20px;
+  }
+  .summery p {
+    margin-top: 1%;
+    font-size: 10px;
+  }
+  .history p {
+    margin-top: 1%;
+    font-size: 10px;
+    margin-top: 2%;
+  }
+  .history h1 {
+    text-transform: uppercase;
+    font-size: 20px;
+  }
+  .allHistory ul li {
+    font-size: 10px;
+    margin-left: 5%;
+    line-height: 1.2;
+  }
+  .skill h1 {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: 2%;
+  }
+  .firstSkill ul li {
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 1.6;
+  }
+  .education h1 {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: 2%;
+  }
+  .education p {
+    font-size: 10px;
+    text-transform: uppercase;
+    margin-top: 1%;
+    font-weight: 600;
+  }
+}
+@media (max-width: 768px) {
+  body {
+    max-width: 700px;
+  }
+  .dates {
+    display: flex;
+    justify-content: space-between;
+    gap: 40%;
+  }
+}
